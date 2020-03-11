@@ -1,38 +1,18 @@
 <title>Uh, what?</title>
 <link rel="icon" href="web-icon.ico" type="image/x-icon">
-<style type="text/css">
-@font-face {
-   font-family: dt-font;
-   src: url('fonts/dtm-sans-webfont.woff2') format('woff2'),
-         url('fonts/dtm-sans-webfont.woff') format('woff');
-}
-
-body {
-   font-family: dt-font;
-</style>
-<style>
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: white;
-    color: black;
-  }
-}
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: black;
-    color: white;
-  }
-}
-   </style>
-
-
-<p></p>
-<p></p>
-<p></p>
-<p style="text-align: center;"><span style="font-size: xxx-large;"><span style="text-align: center;">404</span></span></p>
-<p style="text-align: center;"><span style="font-size: x-large;">The page you are trying to see doesn't exist.</span></p>
-<p style="text-align: center;">Maybe try going to the <a onclick="window.location.href = 'https://kayoticmods.github.io/home';"><span style="color: #FFFF00;">home page</span></a>?</p>
-
-
-
-</body>
+       <style> 
+           /* CSS style to hide cursor element */ 
+            .newClass { 
+                cursor: none; 
+            } 
+        </style> 
+        <!-- Script to hide cursor element -->
+        <script> 
+            /* Function to add class name to hide cursor element */ 
+            function GFG_Fun() { 
+                body.classList.add("newClass"); 
+                down.innerHTML = "Cursor is removed from body!";  
+            } 
+        </script>  
+    </body>  
+</html>
